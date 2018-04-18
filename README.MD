@@ -4,7 +4,7 @@ This static comp was built using HTML and CSS. A combination of grid and flexbox
 
 ## Original
 
-<img src="https://github.com/JesseMcBrennan/jm-comp-challenge-3/blob/master/Screen%20Shot%202018-04-18%20at%207.36.58%20AM.png></img>
+<img src="https://github.com/JesseMcBrennan/jm-comp-challenge-3/blob/master/Screen%20Shot%202018-04-18%20at%207.36.58%20AM.png"></img>
           
 ## My Comp
 
