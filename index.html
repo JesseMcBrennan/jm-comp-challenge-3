@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav class="nav-left">
-      <div class="nav-profile left-nav">
+      <div role= "navigation link" class="nav-profile left-nav">
         <img class="img-zoey" src="images/zoey.jpeg">
         <h4 class="profile">Zoey Morisette</h4>
       </div>
@@ -34,27 +34,27 @@
       <hr class="nav-break">
       <ul class="nav-bottom">
         <p class="nav-p">Categories</p>
-        <li class="nav-checkbox nav-li"><img src="images/checkbox-yellow.png" alt="" class="nav-checkbox-img">Administrative</li>
-        <li class="nav-checkbox nav-li" class="nav-checkbox-img"><img src="images/checkbox-blue.png" alt="" class="nav-checkbox-img">Design</li>
-        <li class="nav-checkbox nav-li" class="nav-checkbox-img"><img src="images/checkbox-red.png" alt="" class="nav-checkbox-img">Executive</li>
-        <li class="nav-checkbox nav-li"><img src="images/checkbox-green.png" alt="" class="nav-checkbox-img">Human Resources</li>
+        <li class="nav-checkbox nav-li"><input type="checkbox" aria-label="Adminstrative Checkbox">Administrative</li>
+        <li class="nav-checkbox nav-li" class="nav-checkbox-img"><input type="checkbox" aria-label="Design Checkbox">Design</li>
+        <li class="nav-checkbox nav-li" class="nav-checkbox-img"><input type="checkbox" aria-label="Executive Checkbox">Executive</li>
+        <li class="nav-checkbox nav-li"><input type="checkbox">Human Resources</li>
       </ul>
     </nav>
-    <header class="search-bar"><button class="nav-button toggled-togglednav"><img src="images/icon-togglenav.svg" alt="" class="togglenav"></button><input type="text" name="" class="search-top" placeholder="Search for a job, task or resume">
-    <button class="nav-button toggled-adduser"><img src="images/icon-adduser.svg" class="togglenav"></button>
-    <button class="nav-button toggled-calendar"><img src="images/icon-calendar.svg" class="togglenav"></button>
-    <button class="nav-button toggled-settings"><img src="images/icon-settings.svg" class="togglenav"></button>
+    <header class="search-bar"><button aria-label="navigation button" class="nav-button toggled-togglednav"><img src="images/icon-togglenav.svg" alt="" class="togglenav"></button><input aria-label="search input " type="text" name="" class="search-top" placeholder="Search for a job, task or resume">
+    <button class="nav-button toggled-adduser" aria-label="add user"><img src="images/icon-adduser.svg" class="togglenav"></button>
+    <button class="nav-button toggled-calendar" aria-label="calendar"><img src="images/icon-calendar.svg" class="togglenav"></button>
+    <button class="nav-button toggled-settings"><img src="images/icon-settings.svg" class="togglenav" aria-label="settings button"></button>
   </header>
   <menu class="nav-top">
   <h1 class="main-h1">Customer Service Representative</h1>
-  <p class="main-p"><img src="images/icon-locations.svg" alt="" class="icon-location">San Francisco, CA • </p>
-  <div class="top-links">
-    <button class="link-button" id="open-button">OPEN</button>
-    <button class="link-button"><img src="images/icon-bookmark.svg" alt=""></button>
-    <button class="link-button"><img src="images/icon-edit.svg" alt="images/icon-edit.svg"></button>
-    <button class="link-button"><img src="images/icon-delete.svg" alt=""></button>
+  <p class="main-p"><img src="images/icon-locations.svg" alt="LOCATION" class="icon-location">San Francisco, CA • </p>
+  <div role="navigation-links" class="top-links">
+    <button class="link-button" id="open-button" aria-label="open">OPEN</button>
+    <button class="link-button" aria-label="bookmark"><img src="images/icon-bookmark.svg" alt=""></button>
+    <button class="link-button" aria-label="edit field"><img src="images/icon-edit.svg" alt="images/icon-edit.svg"></button>
+    <button class="link-button" aria-label="delete item"><img src="images/icon-delete.svg" alt=""></button>
   </div>
-  <div class="links">
+  <div role="link buttons" class="links">
     <a href="" class="main-links">SUMMARY</a>
     <a href="" class="main-links">APPLICATIONS</a>
     <a href="" class="main-links">APPLICATIONS</a>
@@ -64,7 +64,7 @@
   </div>
   </menu>
   <article class="section-graphs">
-    <div class="circle-graph">
+    <div role="circle graphs" class="circle-graph">
       <svg width="55%" height="55%" viewBox="0 0 42 42" class="donut">
         <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
         <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
@@ -97,7 +97,7 @@
         </text>
       </svg>
     </div>  
-    <div class="bar-graph-section">
+    <div role="bar graph" class="bar-graph-section">
       <img src="images/img-graph.png" class="img-graph">
     </div>
     </article>
@@ -133,7 +133,7 @@
         </li>
         <li class="job-description">
           <h5>APPROVED SALARY</h5>
-          <p><strong>$58,000</strong></p>
+          <p class="salary"><strong>$58,000</strong></p>
         </li>
       </ul>
     </section>
@@ -146,11 +146,13 @@
         <h3><img src="images/icon-link.svg" alt="">Link to this Job</h3>
         <p class="social-bottom-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend</p>
         <input type="text"><button class="social-bottom-button">COPY</button>
+        <label for="copy button"></label>
       </li>      
       <li class="social-bottom">
         <h3><img src="images/icon-widget.svg" alt="">Use the Button Widget</h3>
         <p class="social-bottom-p">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
         <input type="text"><button class="social-bottom-button">COPY</button>
+        <label for="copy button"></label>
       </li>      
       <li class="social-bottom">
         <h3><img src="images/icon-email.svg" alt="" placholder="tomtizz@gmail.com">Upload Resumes by Email</h3>

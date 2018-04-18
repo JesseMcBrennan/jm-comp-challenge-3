@@ -67,6 +67,7 @@ body {
   border-left: 3px solid #26a6f7;
   color: white;
 }
+
 .nav-icon {
   height: 1.4em;
   margin-right: 14px;
@@ -246,6 +247,10 @@ h5 {
   width: 800px;
 }
 
+.salary {
+  font-weight: 600;
+}
+
 .section-social {
   background-color: rgb(236, 242, 246);
   border-top: 1px solid rgb(205, 208, 211);
@@ -277,14 +282,31 @@ h5 {
   color: white;
 }
 
+.fb:hover  {
+  background-color: rgb(61, 114, 206);
+  color: white;
+  opacity: 0.5;
+}
+
 .twitter {
   background-color: rgb(1, 170, 239);
   color: white;
 }
 
+.twitter:hover {
+  background-color: rgb(1, 170, 239);
+  color: white;
+  opacity: 0.5;
+}
 .linkedin {
   background-color: rgb(3, 130, 190);
   color: white;
+}
+
+.linkedin:hover {
+  background-color: rgb(3, 130, 190);
+  color: white;
+  opacity: 0.5;
 }
 
 .social-bottom {
@@ -450,6 +472,24 @@ body {
   display: grid;
   grid-template-columns: 0 70% 30%;
 }
+.chart-number {
+ -moz-transform: translateY(-0.25em);
+ -ms-transform: translateY(-0.25em);
+ -webkit-transform: translateY(-0.25em);
+ font-size: 0.5em;
+ line-height: 1;
+ text-anchor: middle;
+ transform: translateY(.05em);
+}
+
+.chart-text {
+ -moz-transform: translateY(0.25em);
+ -ms-transform: translateY(0.25em);
+ -webkit-transform: translateY(0.25em);
+ fill: #000;
+ transform: translateY(0.01em);
+}
+
 }
 
 @media only screen and (max-width: 1000px) {
