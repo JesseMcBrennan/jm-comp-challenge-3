@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Static-Comp-3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="nav-left">
+      <div class="nav-profile left-nav">
+        <img class="img-zoey" src="images/zoey.jpeg">
+        <h4 class="profile">Zoey Morisette</h4>
+      </div>
+      <hr class="nav-break">
+      <ul class="nav-main">
+        <p class="nav-p">Main</p>
+        <li class="nav-li"><link rel="stylesheet" href=""><img src="images/icon-home.svg" alt="home" class="nav-icon">HOME</li>
+        <li class="nav-li"><link rel="stylesheet" href=""><img src="images/icon-jobs.svg" alt="jobs" class="nav-icon">JOBS</li>
+        <li class="nav-li"><link rel="stylesheet" href=""><img src="images/icon-resumes.svg" alt class="nav-icon" class="nav-icon">RESUMES</li>
+        <li class="nav-li"><link rel="stylesheet" href=""><img src="images/icon-tasks.svg" alt="tasks" class="nav-icon">TASKS</li>
+        <li class="nav-li"><link rel="stylesheet" href=""><img src="images/icon-calendar.svg" alt="calendar" class="nav-icon">CALENDAR</li>
+      </ul>
+      <hr class="nav-break">
+      <ul class="nav-middle">
+        <p class="nav-p">Admin</p>
+        <li class="nav-li"><img src="images/icon-users.svg" alt="" class="nav-icon">USERS</li>
+        <li class="nav-li"><img src="images/icon-locations.svg" alt="" class="nav-icon">LOCATIONS</li>
+        <li class="nav-li"><img src="images/icon-workflows.svg" alt="" class="nav-icon">WORKFLOWS</li>
+        <li class="nav-li"><img src="images/icon-boards.svg" alt="" class="nav-icon">JOB BOARDS</li>
+        <li class="nav-li"><img src="images/icon-social.svg" alt="" class="nav-icon">SOCIAL</li>
+      </ul>
+      <hr class="nav-break">
+      <ul class="nav-bottom">
+        <p class="nav-p">Categories</p>
+        <li class="nav-checkbox nav-li"><img src="images/checkbox-yellow.png" alt="" class="nav-checkbox-img">Administrative</li>
+        <li class="nav-checkbox nav-li" class="nav-checkbox-img"><img src="images/checkbox-blue.png" alt="" class="nav-checkbox-img">Design</li>
+        <li class="nav-checkbox nav-li" class="nav-checkbox-img"><img src="images/checkbox-red.png" alt="" class="nav-checkbox-img">Executive</li>
+        <li class="nav-checkbox nav-li"><img src="images/checkbox-green.png" alt="" class="nav-checkbox-img">Human Resources</li>
+      </ul>
+    </nav>
+    <header class="search-bar"><button class="nav-button toggled-togglednav"><img src="images/icon-togglenav.svg" alt="" class="togglenav"></button><input type="text" name="" class="search-top" placeholder="Search for a job, task or resume">
+    <button class="nav-button toggled-adduser"><img src="images/icon-adduser.svg" class="togglenav"></button>
+    <button class="nav-button toggled-calendar"><img src="images/icon-calendar.svg" class="togglenav"></button>
+    <button class="nav-button toggled-settings"><img src="images/icon-settings.svg" class="togglenav"></button>
+  </header>
+  <menu class="nav-top">
+  <h1 class="main-h1">Customer Service Representative</h1>
+  <p class="main-p"><img src="images/icon-locations.svg" alt="" class="icon-location">San Francisco, CA • </p>
+  <div class="top-links">
+    <button class="link-button" id="open-button">OPEN</button>
+    <button class="link-button"><img src="images/icon-bookmark.svg" alt=""></button>
+    <button class="link-button"><img src="images/icon-edit.svg" alt="images/icon-edit.svg"></button>
+    <button class="link-button"><img src="images/icon-delete.svg" alt=""></button>
+  </div>
+  <div class="links">
+    <a href="" class="main-links">SUMMARY</a>
+    <a href="" class="main-links">APPLICATIONS</a>
+    <a href="" class="main-links">APPLICATIONS</a>
+    <a href="" class="main-links">JOB BOARD</a>
+    <a href="" class="main-links">INTERVIEWS</a>
+    <a href="" class="main-links">ACTIVITY</a>
+  </div>
+  </menu>
+  <article class="section-graphs">
+    <div class="circle-graph">
+      <svg width="55%" height="55%" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#4dbac0" stroke-width="3" stroke-dasharray="80 20"></circle>
+        <text x="50%" y="50%" class="chart-number">
+        3,154
+        </text>
+        <text x="50%" y="50%" class="chart-label">
+        RESUMES
+        </text>
+      </svg>
+      <svg width="55%" height="55%" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#25a6f7" stroke-width="3" stroke-dasharray="70 30"></circle> <text x="50%" y="50%" class="chart-number">
+        1,546
+        </text>
+        <text x="50%" y="50%" class="chart-label">
+        INTERVIEWS
+        </text>
+      </svg>
+      <svg width="55%" height="55%" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ad6bae" stroke-width="3" stroke-dasharray="20 80"></circle> <text x="50%" y="50%" class="chart-number">
+        912
+        </text>
+        <text x="50%" y="50%" class="chart-label">
+        FORWARDS
+        </text>
+      </svg>
+    </div>  
+    <div class="bar-graph-section">
+      <img src="images/img-graph.png" class="img-graph">
+    </div>
+    </article>
+    <section class="section-table">
+      <ul class="table-left">
+        <li class="job-description" id="job-header">
+          <h4>JOB DESCRIPTION</h4>
+          <p><button class="edit-button"> <img src="images/icon-edit.svg" alt="">EDIT</button></p>
+        </li>
+        <li class="job-description">
+          <h5>POSITION TITLE</h5>
+          <p>Customer Service Representative</p>
+        </li>
+        <li class="job-description">
+          <h5>LOCATION</h5>
+          <p>San Francisco, CA</p>
+        </li>
+        <li class="job-description">
+          <h5>EMPLOYMENT TYPE</h5>
+          <p>Full-time</p>
+        </li>
+        <li class="job-description">
+          <h5>EXPERIENCE</h5>
+          <p>Mid-level</p>
+        </li>
+        <li class="job-description">
+          <h5>DESCRIPTION</h5>
+          <p> The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</p>
+        </li>
+        <li class="job-description">
+          <h5>HIRING LEAD</h5>
+          <p><img src="" alt="">Tom Tizzy</p>
+        </li>
+        <li class="job-description">
+          <h5>APPROVED SALARY</h5>
+          <p><strong>$58,000</strong></p>
+        </li>
+      </ul>
+    </section>
+  <section class="section-social">
+    <ul class="social-buttons">
+      <li><button class="fb social-media"><img src="images/icon-fb.svg" alt="" class="social-icon">Post to Facebook</button></li>
+      <li><button class="twitter social-media"><img src="images/icon-tw.svg" alt="" class="social-icon">Tweet this Job</button></li>
+      <li><button class="linkedin social-media"><img src="images/icon-in.svg" alt=""  class="social-icon">Post to LinkedIn</button></li>
+      <li class="social-bottom">
+        <h3><img src="images/icon-link.svg" alt="">Link to this Job</h3>
+        <p class="social-bottom-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend</p>
+        <input type="text"><button class="social-bottom-button">COPY</button>
+      </li>      
+      <li class="social-bottom">
+        <h3><img src="images/icon-widget.svg" alt="">Use the Button Widget</h3>
+        <p class="social-bottom-p">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+        <input type="text"><button class="social-bottom-button">COPY</button>
+      </li>      
+      <li class="social-bottom">
+        <h3><img src="images/icon-email.svg" alt="" placholder="tomtizz@gmail.com">Upload Resumes by Email</h3>
+        <p class="social-bottom-p">You can automatically upload muliple resumes to this job by emailing the address below</p>
+        <input type="text">      
+      </li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
