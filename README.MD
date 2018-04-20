@@ -8,4 +8,4 @@ This static comp was built using HTML and CSS. A combination of grid and flexbox
           
 ## My Comp
 
-<img src="https://github.com/JesseMcBrennan/jm-comp-challenge-3/blob/master/Screen%20Shot%202018-04-18%20at%208.51.34%20AM.png"></img>
+<img src="https://github.com/JesseMcBrennan/jm-comp-challenge-3/blob/master/Screen%20Shot%202018-04-20%20at%2011.59.54%20AM.png"></img>
